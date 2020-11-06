@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_6</title>
+</head>
+<body>
+<script>
+
+    function div(a, b) {
+<!--        var a = prompt('Введите число a');-->
+<!--        var b = prompt('Введите число b');-->
+        res = a / b;
+        alert('Деление чисел равно ' + res);
+        return res;
+    }
+
+    function sum (a, b) {
+<!--        var a = parseInt(prompt('Введите число а'));-->
+<!--        var b = parseInt(prompt('Введите число b'));-->
+        res = a + b;
+        alert('Сумма чисел равна ' + res);
+        return res;
+    }
+
+    function diff (a, b) {
+<!--        var a = prompt('Введите число a');-->
+<!--        var b = prompt('Введите число b');-->
+        res = a - b;
+        alert('Разность чисел равна ' + res);
+        return res;
+    }
+
+    function comp (a, b) {
+<!--        var a = prompt('Введите число a');-->
+<!--        var b = prompt('Введите число b');-->
+        res = a * b;
+        alert('Произведение чисел рвано ' + res);
+        return res;
+    }
+
+    function mathOperation(arg1, arg2, operation){
+        switch(operation) {
+            case "-":
+                diff(arg1, arg2);
+                break;
+            case "*":
+                comp(arg1, arg2);
+                break;
+            case "+":
+                sum(arg1, arg2);
+                break;
+            case "/":
+                div(arg1, arg2);
+                break;
+        }
+    }
+
+    mathOperation(5,8,"*");
+
+</script>
+</body>
+</html>
