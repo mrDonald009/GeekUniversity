@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def main(request):
+def index(request):
     return render(request, 'mainapp/index.html')
 
 
@@ -21,4 +21,8 @@ def test_context(request):
             {'name': 'Туфли Dr Martnes', 'price': '10 000 руб.'},
         ],
     }
+
+    products = context['products']
+
     return render(request, 'mainapp/context.html', context)
+
