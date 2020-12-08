@@ -23,6 +23,18 @@ def test_context(request):
     }
 
     products = context['products']
-
     return render(request, 'mainapp/context.html', context)
 
+def test_product_context(request):
+    context = {
+        'title': 'Привет!',
+        'user_name': 'Ivan',
+        'goods': [
+            {'name': 'Синяя куртка The North Fac', 'price': '23 725,00 руб.'},
+            {'name': 'Черный рюкзак Nike Heritage', 'price': '2 340,00 руб.'},
+            {'name': 'Темно-синие широкие строгие брюки ASOS DESIGN', 'price': '2 890,00 руб.'}
+        ],
+    }
+
+    goods = context['goods']
+    return render(request, 'mainapp/products_context.html', context)
