@@ -34,6 +34,10 @@ def test_product_context(request):
             {'name': 'Черный рюкзак Nike Heritage', 'price': '2 340,00 руб.'},
             {'name': 'Темно-синие широкие строгие брюки ASOS DESIGN', 'price': '2 890,00 руб.'}
         ],
+        'promotion': True,
+                 'promotion_products': [
+                     {'name': 'Черные туфли на платформе с 3 парами люверсов Dr Martens 1461 Bex', 'price': '13 590,00 руб.'},
+                 ],
     }
 
     goods = context['goods']
