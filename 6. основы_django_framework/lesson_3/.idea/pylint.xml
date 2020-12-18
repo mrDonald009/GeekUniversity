@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="PylintConfigService">
-    <option name="customPylintPath" value="C:\Users\Admin\GeekBrains\6. основы_django_framework\lesson_4\venv\Scripts\python.exe" />
+    <option name="customPylintPath" value="C:\Users\Admin\PycharmProjects\django\geekshop-server\env\Scripts\python.exe" />
     <option name="pylintrcPath" value="C:\Users\Admin\PycharmProjects\django\geekshop-server\env\Scripts\python.exe" />
   </component>
 </project>
