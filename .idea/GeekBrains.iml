@@ -13,8 +13,11 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/6. основы_django_framework">
+      <sourceFolder url="file://$MODULE_DIR$/6. основы_django_framework" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/6. основы_django_framework/lesson_4" />
-    <orderEntry type="jdk" jdkName="shop-server" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="venv_lesson_1" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
