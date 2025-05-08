@@ -1,0 +1,3 @@
+[submodule "Skillbox"]
+	path = Skillbox
+	url = https://github.com/mrDonald009/Skillbox.git
